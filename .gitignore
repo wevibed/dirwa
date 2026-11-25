@@ -1,0 +1,34 @@
+node_modules/ 
+dist/ 
+.env 
+.env.* 
+!.env.example
+
+# Dependencies and builds
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Local backups and temporary inspection files
+*.before-real-beds
+public/asset-preview/
+public/optimized-assets/
+src/components/AssetPreview.jsx
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary inspection assets
+public/inspector-assets/
+
+# Local backup files
+*.before-*
+*.before-real-beds
+
+# Temporary preview components
+src/AssetPreview.jsx
+src/components/AssetPreview.jsx
